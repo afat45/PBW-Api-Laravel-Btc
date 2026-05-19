@@ -1,66 +1,104 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<br />
+<div align="center">
+  <a href="https://github.com/afat45/PBW-Api-Laravel-Btc">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" alt="Laravel Logo" width="200">
+  </a>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+  <h3 align="center">PBW API Laravel - BTC</h3>
 
-## About Laravel
+  <p align="center">
+    RESTful API berbasis Laravel untuk manajemen dan layanan data terkait Bitcoin (BTC).
+    <br />
+    <a href="#-dokumentasi-api"><strong>Jelajahi Dokumentasi »</strong></a>
+    <br />
+    <br />
+  </p>
+</div>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📸 Dokumentasi & Mockup
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+*(Catatan: Ganti URL gambar di bawah ini dengan link screenshot, foto dokumentasi, atau mockup aslimu yang sudah diunggah ke folder repositori atau image hosting)*
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 1. Tampilan Dashboard/Mockup Klien
+![Mockup Aplikasi](https://via.placeholder.com/800x400.png?text=Tampilan+Mockup+Aplikasi/Klien)
+*Gambar 1: Demonstrasi mockup antarmuka pengguna yang mengkonsumsi API ini.*
 
-## Learning Laravel
+### 2. Pengujian Endpoint (Postman/Insomnia)
+![Dokumentasi API](https://via.placeholder.com/800x400.png?text=Screenshot+Postman+atau+Swagger)
+*Gambar 2: Dokumentasi pengujian endpoint API.*
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## ✨ Fitur Utama
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+* **RESTful Architecture**: Struktur API standar yang mudah dikonsumsi oleh frontend (seperti Vue.js atau Flutter).
+* **Manajemen Data BTC**: Sistem terstruktur untuk menangani informasi atau transaksi terkait Bitcoin.
+* **JSON Response**: Format balasan seragam dan konsisten untuk memudahkan parsing data.
+* **Integrasi Database Mulus**: Penggunaan Eloquent ORM untuk komunikasi dengan database.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🛠️ Teknologi yang Digunakan
 
-## Laravel Sponsors
+* [Laravel](https://laravel.com/) - Framework PHP utama untuk membangun API.
+* [PHP](https://www.php.net/) - Bahasa pemrograman backend.
+* [MySQL](https://www.mysql.com/) - Manajemen basis data relasional.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🚀 Panduan Instalasi (Getting Started)
 
-### Premium Partners
+Untuk menjalankan proyek ini di lingkungan lokal (localhost), ikuti panduan berikut:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### Prasyarat
 
-## Contributing
+Pastikan sistem komputermu sudah terinstal:
+* PHP (minimal versi 8.1 disarankan)
+* Composer
+* MySQL / MariaDB (bisa menggunakan XAMPP/Laragon)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Langkah Instalasi
 
-## Code of Conduct
+1.  Clone repositori ini ke dalam direktori lokalmu:
+    ```sh
+    git clone https://github.com/afat45/PBW-Api-Laravel-Btc.git
+    ```
+2.  Masuk ke dalam folder proyek:
+    ```sh
+    cd PBW-Api-Laravel-Btc
+    ```
+3.  Instal seluruh dependensi proyek:
+    ```sh
+    composer install
+    ```
+4.  Salin file konfigurasi environment dan sesuaikan kredensial database-mu:
+    ```sh
+    cp .env.example .env
+    ```
+5.  Generate Application Key:
+    ```sh
+    php artisan key:generate
+    ```
+6.  Jalankan migrasi untuk membangun struktur tabel di database:
+    ```sh
+    php artisan migrate
+    ```
+7.  Mulai local development server:
+    ```sh
+    php artisan serve
+    ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 📡 Dokumentasi API
 
-## Security Vulnerabilities
+Berikut adalah gambaran umum endpoint yang tersedia. *(Silakan sesuaikan kembali dengan rute asli yang ada di kode)*
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+| HTTP Method | Endpoint | Deskripsi |
+|---|---|---|
+| `GET` | `/api/btc` | Mengambil seluruh data BTC |
+| `GET` | `/api/btc/{id}` | Mengambil detail spesifik data BTC berdasarkan ID |
+| `POST` | `/api/btc` | Menambahkan data BTC baru |
+| `PUT/PATCH` | `/api/btc/{id}` | Memperbarui data BTC yang sudah ada |
+| `DELETE` | `/api/btc/{id}` | Menghapus data BTC dari sistem |
 
-## License
+## 👨‍💻 Penulis
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**Dharma Pala Candra**
+* **NIM:** 2409116065
+* **Kelas:** Sistem Informasi 2024 B
+
+---
+⭐ *Jangan lupa untuk memberikan bintang (star) pada repositori ini jika kamu menyukainya!*
